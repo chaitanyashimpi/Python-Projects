@@ -42,9 +42,9 @@ Similarly, to check for the upload speed, we will make use of upload method to f
 
 Once done, let's display the download and upload speed. (This will show the speed in bytes, so we will multiply it by 8000)
 
-<h4><code> print("Your Download speed is", d_st*8000) </code>
+<h4><code> print("Your Download speed is", d_st/8000) </code>
 <br/><br>
-<code> print("Your Upload speed is", u_st*8000) </code>
+<code> print("Your Upload speed is", u_st/8000) </code>
  </4>
  
 Let's check for ping. We can do so by making use of the following command.
